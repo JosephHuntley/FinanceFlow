@@ -7,7 +7,7 @@ const Header: Component<{}> = (props) => {
   const active = (path: string) =>
     path == location.pathname ? "underline" : ""
   return (
-    <header class="flex flex-row justify-between align-center w-full py-8 px-[10.25rem] fixed">
+    <header class=" z-10 flex flex-row justify-between align-center w-full py-8 px-[10.25rem] fixed">
       {/* Links */}
       <nav class="flex flex-row items-center  gap-8 h-16">
         <Logo />
