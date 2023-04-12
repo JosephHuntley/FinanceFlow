@@ -1,6 +1,7 @@
 import { Component } from "solid-js"
 import { A, useLocation } from "@solidjs/router"
 import Logo from "../global/Logo"
+import Button from "../global/Button"
 
 const Header: Component<{}> = (props) => {
   const location = useLocation()
@@ -41,9 +42,7 @@ const Header: Component<{}> = (props) => {
         </ul>
       </nav>
       {/* Download App Button */}
-      <button class="bg-blue rounded-[5rem] py-5 px-8 flex flex-row justify-center items-center gap-1 w-52 h-14 leading-4">
-        Download App
-      </button>
+      <Button>Download App</Button>
     </header>
   )
 }
