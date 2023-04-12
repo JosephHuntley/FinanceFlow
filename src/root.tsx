@@ -15,6 +15,7 @@ import {
 } from "solid-start"
 import "./root.css"
 import Header from "./components/layout/Header"
+import Footer from "./components/layout/Footer"
 
 export default function Root() {
   return (
@@ -32,6 +33,7 @@ export default function Root() {
             <Routes>
               <FileRoutes />
             </Routes>
+            <Footer />
           </ErrorBoundary>
         </Suspense>
         <Scripts />
