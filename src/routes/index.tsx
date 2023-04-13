@@ -1,3 +1,11 @@
+import Hero from "~/components/home/Hero"
+
 export default function Home() {
-  return <main class="h-[100vh]">home</main>
+  return (
+    <>
+      <main class="pt-32 h-[100vh]">
+        <Hero />
+      </main>
+    </>
+  )
 }
