@@ -5,4 +5,58 @@
 html {
   color: #fff;
   --opac-blue: rgba(3, 40, 238, 0.2);
+  --size: 1;
+}
+
+.burger {
+  size: var(--size);
+  cursor: pointer;
+  padding: 3em 1.5em;
+}
+.burger > div {
+  width: 4em;
+  height: 0.5em;
+  border-radius: 1em;
+  background: #f0ffff;
+}
+.burger > div::before,
+.burger > div::after {
+  transition: size 0s;
+  content: "";
+  display: block;
+  position: absolute;
+  width: 4em;
+  height: 0.5em;
+  background: #f0ffff;
+  border-radius: 1em;
+}
+.burger > div::before {
+  margin-top: -1.5em;
+}
+.burger > div::after {
+  margin-top: 1.5em;
+}
+
+.burger1 {
+  transition: all 0.7s, size 0s;
+  transition-timing-function: cubic-bezier(0.68, -0.35, 0.265, 1.35);
+}
+.burger1 > div {
+  transition: all 0.1s 0.3s, size 0s;
+}
+.burger1 > div::before,
+.burger1 > div::after {
+  transition: all 0.3s 0.2s, size 0s;
+}
+.burger1.toggled {
+  transform: rotate(180deg);
+}
+.burger1.toggled > div::before {
+  transform: rotate(45deg) translate(1.1em, 1em);
+}
+.burger1.toggled > div {
+  background: transparent;
+}
+.burger1.toggled > div::after {
+  transform: rotate(-45deg) translate(1.1em, -1em);
 }
