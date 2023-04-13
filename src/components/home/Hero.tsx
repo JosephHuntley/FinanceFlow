@@ -4,10 +4,13 @@ import Comp from "/Computer.png"
 
 const Hero: Component<{}> = (props) => {
   return (
-    <section class="flex flex-row justify-between mx-40 max-w-[644px] leading-{5rem} mb-[120px]">
+    <section class="flex flex-row justify-between max-w-[644px] leading-{5rem} ">
       <div class="relative z-10 mt-48 flex flex-row">
         <div>
-          <h1 class="text-6xl ">Buy, trade and hold 350+ cryptocurrencies</h1>
+          <h1 class="text-6xl ">
+            Buy, trade and hold <br />
+            350+ cryptocurrencies
+          </h1>
           <p class="text-lg max-w-[568px] mt-2">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat
             nulla suspendisse tortor aenean dis placerat.
@@ -17,7 +20,7 @@ const Hero: Component<{}> = (props) => {
             <Button variant="alt">View Pricing</Button>
           </div>
         </div>
-        <div class=" w-[971px] h-[585px] relative top-[-100px] left-[-8px]">
+        <div class=" w-[971px] h-[585px] relative top-[-100px] left-[180px]">
           <img src={Comp} />
         </div>
       </div>
