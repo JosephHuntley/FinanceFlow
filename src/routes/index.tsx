@@ -1,6 +1,7 @@
 import Featured from "~/components/home/Featured"
 import Hero from "~/components/home/Hero"
 import Portfolio from "~/components/home/Portfolio"
+import Rewards from "~/components/home/Rewards"
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
         <Hero />
         <Featured />
         <Portfolio />
+        {/* <Rewards /> */}
       </main>
     </>
   )
