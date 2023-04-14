@@ -7,7 +7,7 @@ import Trading from "/Trading.png"
 
 const Portfolio: Component<{}> = (props) => {
   return (
-    <section class="mt-16 ">
+    <section class="sm:mt-44 mt-16 ">
       <div class="flex flex-col gap-4">
         <h1 class="text-3xl font-bold">
           Build your crypto <br class="sm:hidden block" />
