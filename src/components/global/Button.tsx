@@ -7,8 +7,12 @@ const Button: Component<{
 }> = ({ children, variant, className = "" }) => {
   return (
     <button
-      class={`bg-${
-        variant === "alt" ? "white/10" : variant === "white" ? "white" : "blue"
+      class={`${
+        variant === "alt"
+          ? "bg-white/10"
+          : variant === "white"
+          ? "bg-white"
+          : "bg-blue"
       } ${variant === "alt" ? "hover:bg-blue" : "hover:bg-alt-blue"} ${
         variant === "white" ? "text-blue hover:text-white" : ""
       }  rounded-[5rem] py-5 px-8 flex flex-row justify-center items-center gap-1 w-52 h-14 leading-4 sm:min-w-[200px] w-full sm:w-min  ${className}`}
