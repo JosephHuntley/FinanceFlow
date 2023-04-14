@@ -50,7 +50,7 @@ export default function Root() {
             <Routes>
               <FileRoutes />
             </Routes>
-            {/* <Footer /> */}
+            <Footer />
           </ErrorBoundary>
         </Suspense>
         <Scripts />

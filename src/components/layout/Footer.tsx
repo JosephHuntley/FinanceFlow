@@ -6,11 +6,12 @@ import linkedin from "/linkedIn.svg"
 import apple from "/apple.svg"
 import playStore from "/playStore.svg"
 import { A } from "@solidjs/router"
+import Button from "../global/Button"
 
 const Footer: Component<{}> = (props) => {
   return (
-    <footer class="bg-dark-blue pt-14 px-32 pb-8">
-      <div class="flex flex-row justify-between mb-24">
+    <footer class="bg-dark-blue pt-14 lg:px-32 sm:px-12 px-6 pb-8">
+      <div class="flex sm:flex-row flex-col gap-6 sm:gap-0 justify-between mb-24">
         <Logo />
         {/* icons */}
         <div class="flex flex-row gap-3">
@@ -25,7 +26,7 @@ const Footer: Component<{}> = (props) => {
           </a>
         </div>
       </div>
-      <div class="flex flex-row justify-between">
+      <div class="flex lg:flex-row flex-col justify-between gap-14 lg:gap-0">
         <div>
           <div>MENU</div>
           <div class="h-px width-full bg-white mt-8" />
@@ -47,21 +48,22 @@ const Footer: Component<{}> = (props) => {
             </li>
           </ul>
         </div>
+        {/* APPLICATION PROMPT */}
         <div class="bg-white/10 p-11 rounded-[40px] text-lg">
           <div class="uppercase leading-6">Download our application</div>
-          <div class="w-96 leading-8 mt-4">
+          <div class="max-w-96 leading-8 mt-4">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed
             nulla integer.
           </div>
-          <div class="flex flex-row mt-6 gap-4">
-            <button class="px-8 py-7 bg-blue rounded-[80px] flex flex-row gap-2">
+          <div class="flex flex-row mt-6 gap-4 justify-evenly">
+            <Button className="flex flex-row gap-2 ">
               <img src={apple} />
               App Store
-            </button>
-            <button class="px-8 py-7 bg-blue rounded-[80px] flex flex-row gap-2">
+            </Button>
+            <Button className="flex flex-row gap-2">
               <img src={playStore} />
               Play Store
-            </button>
+            </Button>
           </div>
         </div>
       </div>
