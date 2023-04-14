@@ -4,8 +4,8 @@ import Comp from "/Computer.png"
 
 const Hero: Component<{}> = (props) => {
   return (
-    <section class="flex flex-row justify-between  leading-{5rem} ">
-      <div class="relative z-10 mt-48 flex sm:flex-row flex-col w-full">
+    <section class="flex flex-row sm:justify-between  leading-{5rem} ">
+      <div class="relative z-10 sm:mt-48 flex sm:flex-row flex-col w-full">
         <div class="w-full">
           <h1 class="sm:text-6xl text-4xl ">
             Buy, trade and <br class="sm:hidden block" />
