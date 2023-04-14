@@ -45,7 +45,7 @@ const Portfolio: Component<{}> = (props) => {
             </div>
 
             {/* Phone */}
-            <div class="bg-blue sm:h-[604px] h-[624px] sm:w-[480px] w-full rounded-[40px] pt-12 px-9 overflow-hidden">
+            <div class="bg-blue sm:h-[604px] h-[624px] sm:w-[480px] w-full rounded-[40px] pt-12 px-9 overflow-hidden my-3">
               <h2 class="font-bold text-xl uppercase">IOS & Android App</h2>
               <p class=" mt-4">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
