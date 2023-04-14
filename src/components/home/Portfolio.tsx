@@ -18,49 +18,63 @@ const Portfolio: Component<{}> = (props) => {
           suspendisse tortor aene.
         </p>
       </div>
-      <div class="mt-6 flex flex-col gap-3">
-        <div class="bg-dark-blue h-[296px] w-full rounded-[40px] py-12 px-6">
-          <img src={SR} />
-          <h2 class="font-bold text-lg uppercase mt-6">Send & Receive</h2>
-          <p class="max-w-[280px] mt-4">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat
-            nulla suspendisse tortor aene.
-          </p>
-        </div>
-        <div class="bg-dark-blue h-[296px] w-full rounded-[40px] py-12 px-6">
-          <img src={Wallet} />
-          <h2 class="font-bold text-lg uppercase mt-6">100% Secure Wallet</h2>
-          <p class="max-w-[280px] mt-4">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat
-            nulla suspendisse tortor aene.
-          </p>
-        </div>
+      <div class="sm:flex">
+        <div class="sm:flex sm:flex-col mt-20">
+          <div class="sm:flex sm:flex-row sm:gap-7">
+            {/* First Row */}
+            <div class=" sm:mt-0 mt-6 flex flex-col gap-3 ">
+              <div class="bg-dark-blue h-[296px] sm:w-[326px] w-full rounded-[40px] py-12 px-6">
+                <img src={SR} />
+                <h2 class="font-bold text-lg uppercase mt-6">Send & Receive</h2>
+                <p class="max-w-[280px] mt-4">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Feugiat nulla suspendisse tortor aene.
+                </p>
+              </div>
+              <div class="bg-dark-blue h-[296px] sm:w-[326px] w-full rounded-[40px] py-12 px-6">
+                <img src={Wallet} />
+                <h2 class="font-bold text-lg uppercase mt-6">
+                  100% Secure Wallet
+                </h2>
+                <p class="max-w-[280px] mt-4">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Feugiat nulla suspendisse tortor aene.
+                </p>
+              </div>
+            </div>
 
-        {/* Phone */}
-        <div class="bg-blue h-[624px] w-full rounded-[40px] pt-12 px-9 overflow-hidden">
-          <h2 class="font-bold text-xl uppercase">IOS & Android App</h2>
-          <p class=" mt-4">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In amet,
-            morbi non at sed neque.
-          </p>
-          <img class="mt-4" src={Phone} />
-        </div>
+            {/* Phone */}
+            <div class="bg-blue sm:h-[604px] h-[624px] sm:w-[480px] w-full rounded-[40px] pt-12 px-9 overflow-hidden">
+              <h2 class="font-bold text-xl uppercase">IOS & Android App</h2>
+              <p class=" mt-4">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+                amet, morbi non at sed neque.
+              </p>
+              <img class="mt-4" src={Phone} />
+            </div>
 
-        <div class="bg-dark-blue h-[296px] w-full rounded-[40px] py-12 px-6">
-          <img src={Charts} />
-          <h2 class="font-bold text-lg uppercase mt-6">Trading Charts</h2>
-          <p class="max-w-[280px] mt-4">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat
-            nulla suspendisse tortor aene.
-          </p>
-        </div>
-        <div class="bg-dark-blue h-[296px] w-full rounded-[40px] py-12 px-6">
-          <img src={Trading} />
-          <h2 class="font-bold text-lg uppercase mt-6">Real Time Trading</h2>
-          <p class="max-w-[280px] mt-4">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat
-            nulla suspendisse tortor aene.
-          </p>
+            {/* Second Row */}
+            <div class="sm:flex sm:flex-col gap-3">
+              <div class="bg-dark-blue h-[296px] sm:w-[326px] w-full rounded-[40px] py-12 px-6">
+                <img src={Charts} />
+                <h2 class="font-bold text-lg uppercase mt-6">Trading Charts</h2>
+                <p class="max-w-[280px] mt-4">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Feugiat nulla suspendisse tortor aene.
+                </p>
+              </div>
+              <div class="bg-dark-blue h-[296px] sm:w-[326px] w-full rounded-[40px] py-12 px-6">
+                <img src={Trading} />
+                <h2 class="font-bold text-lg uppercase mt-6">
+                  Real Time Trading
+                </h2>
+                <p class="max-w-[280px] mt-4">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Feugiat nulla suspendisse tortor aene.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
