@@ -55,7 +55,7 @@ const Portfolio: Component<{}> = (props) => {
             </div>
 
             {/* Second Row */}
-            <div class="sm:flex sm:flex-col gap-3">
+            <div class="sm:mt-0 mt-6 flex flex-col gap-3 ">
               <div class="bg-dark-blue h-[296px] sm:w-[326px] w-full rounded-[40px] py-12 px-6">
                 <img src={Charts} />
                 <h2 class="font-bold text-lg uppercase mt-6">Trading Charts</h2>
