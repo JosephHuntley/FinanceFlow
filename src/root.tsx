@@ -17,6 +17,7 @@ import "./root.css"
 import Header from "./components/layout/Header"
 import Footer from "./components/layout/Footer"
 import Menu from "./components/layout/Menu"
+import Alert from "./components/global/Alert"
 
 export default function Root() {
   const [rect, setRect] = createSignal({
@@ -46,6 +47,7 @@ export default function Root() {
       <Body>
         <Suspense>
           <ErrorBoundary>
+            <Alert />
             {rect().width > 680 ? <Header /> : <Menu />}
             <Routes>
               <FileRoutes />
