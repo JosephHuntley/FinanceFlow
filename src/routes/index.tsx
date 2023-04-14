@@ -1,5 +1,6 @@
 import Featured from "~/components/home/Featured"
 import Hero from "~/components/home/Hero"
+import Portfolio from "~/components/home/Portfolio"
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <main class="pt-32 sm:mx-40 mx-4 min-h-[100vh]">
         <Hero />
         <Featured />
+        <Portfolio />
       </main>
     </>
   )
