@@ -4,10 +4,11 @@ import Wallet from "/Wallet.png"
 import Phone from "/Phone.png"
 import Charts from "/Charts.png"
 import Trading from "/Trading.png"
+import Button from "../global/Button"
 
 const Portfolio: Component<{}> = (props) => {
   return (
-    <section class="sm:mt-44 mt-16 ">
+    <section class="sm:mt-44 mt-16 flex flex-col items-center gap-12">
       <div class="flex flex-col gap-4">
         <h1 class="text-3xl font-bold">
           Build your crypto <br class="sm:hidden block" />
@@ -77,6 +78,7 @@ const Portfolio: Component<{}> = (props) => {
           </div>
         </div>
       </div>
+      <Button>Download App</Button>
     </section>
   )
 }
