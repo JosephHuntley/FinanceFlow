@@ -49,9 +49,9 @@ const Footer: Component<{}> = (props) => {
           </ul>
         </div>
         {/* APPLICATION PROMPT */}
-        <div class="bg-white/10 p-11 rounded-[40px] text-lg">
-          <div class="uppercase leading-6">Download our application</div>
-          <div class="max-w-96 leading-8 mt-4">
+        <div class="bg-white/10 p-11 rounded-[40px] text-lg max-w-[508px]">
+          <div class=" leading-6">Download Our Application</div>
+          <div class="max-w-[24rem] leading-8 mt-4">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed
             nulla integer.
           </div>
