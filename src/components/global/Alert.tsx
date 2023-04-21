@@ -6,7 +6,7 @@ const Alert: Component<{}> = (props) => {
   return (
     <Show when={isOpen()}>
       <div
-        class="fixed left-1/2 transform -translate-x-1/2 bg-blue/70 hover:opacity-50 px-4 py-2 mt-4 rounded-lg max-w-[33vw] flex flex-row gap-2 items-center"
+        class="fixed left-1/2 transform -translate-x-1/2 bg-blue hover:opacity-50 px-4 py-2 mt-4 rounded-lg w-[90vw] sm:max-w-[33vw] flex flex-row gap-2 items-center"
         style={{ "z-index": "99999" }}
       >
         <p>
