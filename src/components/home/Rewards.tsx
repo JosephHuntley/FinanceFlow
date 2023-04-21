@@ -7,9 +7,7 @@ const Rewards: Component<{}> = (props) => {
   return (
     <section class="grid sm:gap-y-10  my-20 grid-cols-1 sm:grid-cols-2 items-center sm:w-screen overflow-x-hidden">
       {/* Dual Phone */}
-      {/* <div class="flex sm:flex-row flex-col"> */}
       <img class="w-full h-[380px] sm:w-[500px] sm:h-[592px]" src={DualPhone} />
-
       {rewards.map((reward) => (
         <div class="flex flex-col my-10 sm:max-w-[472px]">
           <h2 class="text-3xl font-bold ">{reward.title}</h2>
@@ -24,7 +22,6 @@ const Rewards: Component<{}> = (props) => {
           ))}
         </div>
       ))}
-      {/* </div> */}
       {/* Laptop */}
       <div class="w-full sm:w-[972px] sm:h-[588px] sm:right-[200px] relative">
         <img
