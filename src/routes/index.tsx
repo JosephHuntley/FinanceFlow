@@ -1,4 +1,5 @@
 import { Head, Title, Meta } from "solid-start"
+import Banner from "~/components/home/Banner"
 import Featured from "~/components/home/Featured"
 import Hero from "~/components/home/Hero"
 import Portfolio from "~/components/home/Portfolio"
@@ -19,6 +20,7 @@ export default function Home() {
         <Featured />
         <Portfolio />
         <Rewards />
+        <Banner />
       </main>
     </>
   )
