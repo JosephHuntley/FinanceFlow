@@ -1,19 +1,19 @@
-import { Component } from "solid-js"
-import SR from "/Send_Receive.png"
-import Wallet from "/Wallet.png"
-import Phone from "/Phone.png"
-import Charts from "/Charts.png"
-import Trading from "/Trading.png"
-import Button from "../global/Button"
+import { Component } from "solid-js";
+import SR from "/Send_Receive.png";
+import Wallet from "/Wallet.png";
+import Phone from "/Phone.png";
+import Charts from "/Charts.png";
+import Trading from "/Trading.png";
+import Button from "../global/Button";
 
 const Portfolio: Component<{}> = (props) => {
   return (
     <section class="sm:mt-44 mt-16 flex flex-col items-center gap-12">
       <div class="flex flex-col gap-4">
-        <h1 class="text-3xl font-bold">
+        <h2 class="text-3xl font-bold">
           Build your crypto <br class="sm:hidden block" />
-          profile
-        </h1>
+          portfolio
+        </h2>
         <p class="max-w-20">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat nulla
           suspendisse tortor aene.
@@ -80,7 +80,7 @@ const Portfolio: Component<{}> = (props) => {
       </div>
       <Button>Download App</Button>
     </section>
-  )
-}
+  );
+};
 
-export default Portfolio
+export default Portfolio;
