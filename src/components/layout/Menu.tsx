@@ -1,17 +1,17 @@
-import { Component, Show, createSignal } from "solid-js"
-import Logo from "../global/Logo"
+import { Component, Show, createSignal } from "solid-js";
+import Logo from "../global/Logo";
 
-import { A, useLocation } from "@solidjs/router"
-import Button from "../global/Button"
+import { A, useLocation } from "@solidjs/router";
+import Button from "../global/Button";
 
 const Menu: Component<{}> = (props) => {
-  const [isMenu, setIsMenu] = createSignal(false)
-  const location = useLocation()
+  const [isMenu, setIsMenu] = createSignal(false);
+  const location = useLocation();
   const active = (path: string) =>
-    path == location.pathname ? "underline" : ""
+    path == location.pathname ? "underline" : "";
   return (
     <header class={`fixed z-50 w-screen ${isMenu() && "bg-bg"}`}>
-      <div class="flex flex-row justify-between items-center">
+      <div class="flex flex-row justify-between items-center ml-4">
         <Logo />
         <div class="w-max">
           <div
@@ -61,7 +61,7 @@ const Menu: Component<{}> = (props) => {
         <div class="blur-2xl bg-blue/40 h-[616px] w-[616px] rounded-full absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2" />
       </Show>
     </header>
-  )
-}
+  );
+};
 
-export default Menu
+export default Menu;
