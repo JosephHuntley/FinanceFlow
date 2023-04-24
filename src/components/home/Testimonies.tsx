@@ -15,7 +15,7 @@ const Testimonies: Component<{}> = (props) => {
   return (
     <section class="flex flex-col items-center">
       <div class="flex flex-col sm:flex-row sm:justify-between sm:w-full gap-5 mt-28 ">
-        <h2 class="text-3xl ">What our users say?</h2>
+        <h2 class="font-bold text-3xl ">What our users say?</h2>
         <Button>Download App</Button>
       </div>
       <div class="max-w-[588px]" use:slider>

@@ -1,13 +1,13 @@
-import { Component } from "solid-js"
-import Button from "../global/Button"
-import Comp from "/Computer.png"
+import { Component } from "solid-js";
+import Button from "../global/Button";
+import Comp from "/Computer.png";
 
 const Hero: Component<{}> = (props) => {
   return (
     <section class="flex flex-row sm:justify-between  leading-{5rem} ">
       <div class="relative z-10 sm:mt-48 flex sm:flex-row flex-col w-full">
         <div class="w-full">
-          <h1 class="sm:text-6xl text-4xl ">
+          <h1 class="sm:text-6xl text-4xl font-bold">
             Buy, trade and <br class="sm:hidden block" />
             hold <br class="sm:block hidden" />
             350+ <br class="sm:hidden block" />
@@ -30,7 +30,7 @@ const Hero: Component<{}> = (props) => {
       <div class="blur-2xl bg-dark-blue/40 h-[952px] w-[952px] rounded-full sm:absolute left-[-26%] top-[-50%]  hidden" />
       <div class="blur-2xl bg-[--opac-blue] h-[680px] w-[680px]rounded-full sm:absolute right-[-11%] top-[248px]  hidden " />
     </section>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;

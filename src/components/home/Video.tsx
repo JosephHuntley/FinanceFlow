@@ -8,7 +8,7 @@ const Video: Component<{}> = (props) => {
   return (
     <section class="flex flex-col sm:flex-row mt-28 gap-16 sm:gap-8">
       <div>
-        <h2 class="text-3xl">Get started today</h2>
+        <h2 class="font-bold text-3xl">Get started today</h2>
         <p class="mt-4 max-w-[472px]">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat nulla
           suspendisse tortor aene.

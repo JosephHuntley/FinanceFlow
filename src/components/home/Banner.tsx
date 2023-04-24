@@ -6,7 +6,7 @@ const Banner: Component<{}> = (props) => {
   return (
     <section class="bg-blue w-screen sm:mx-[-10rem] mx-[-1rem] sm:px-40 px-6 sm:py-28 pt-10 flex flex-col sm:flex-row sm:mt-60 items-center sm:items-start">
       <div class="flex flex-col items-center sm:items-start">
-        <h2 class="text-3xl sm:text-4xl max-w-[304px] sm:max-w-[520px] text-center sm:text-left">
+        <h2 class="text-3xl font-bold sm:text-4xl max-w-[304px] sm:max-w-[520px] text-center sm:text-left">
           Explore endless possibilities with FinanceFlow
         </h2>
         <p class="mt-2 text-lg sm:max-w-[500px]">
