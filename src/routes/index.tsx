@@ -6,6 +6,7 @@ import Portfolio from "~/components/home/Portfolio";
 import Rewards from "~/components/home/Rewards";
 import Testimonies from "~/components/home/Testimonies";
 import Video from "~/components/home/Video";
+import News from "~/components/home/News";
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
         <Banner />
         <Testimonies />
         <Video />
+        <News />
       </main>
     </>
   );

@@ -5,6 +5,8 @@ import CheckMarkIcon from "/CheckMark.png";
 import UptimeIcon from "/Uptime.png";
 import MessageIcon from "/Message.png";
 import User from "/User.png";
+import AuthorImage from "/AuthorImage.png";
+import Hero from "/BlogHero.png";
 
 export const rewards = [
   {
@@ -81,5 +83,32 @@ export const feedback = [
     img: User,
     name: "Jane Carter",
     title: "Role, Company",
+  },
+];
+
+export const articles = [
+  {
+    title: "Browse our latest news",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit non neque orci amet, amet .",
+    author: "Alex Turner",
+    date: "August 2, 2021",
+    authorImg: AuthorImage,
+    heroImg: Hero,
+  },
+  {
+    title: "Browse our latest news",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit non neque orci amet, amet .",
+    author: "Alex Turner",
+    date: "August 2, 2021",
+    authorImg: AuthorImage,
+    heroImg: Hero,
+  },
+  {
+    title: "Browse our latest news",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit non neque orci amet, amet .",
+    author: "Alex Turner",
+    date: "August 2, 2021",
+    authorImg: AuthorImage,
+    heroImg: Hero,
   },
 ];
