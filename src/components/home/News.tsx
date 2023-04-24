@@ -4,15 +4,15 @@ import Button from "../global/Button";
 
 const News: Component<{}> = (props) => {
   return (
-    <section class="mt-28 flex flex-col sm:flex-row">
-      <div>
+    <section class="mt-28 flex flex-col items-center">
+      <div class="flex flex-col sm:flex-row justify-between w-full">
         <h2 class="text-3xl font-bold">Browse our latest news</h2>
-        <p class="mt-4 max-w-[472px]">
+        <p class="mt-4 sm:mt-0 max-w-[460px]">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit non neque
           orci amet, amet .
         </p>
       </div>
-      <div class="gap-4 flex flex-col mt-6">
+      <div class="gap-4 flex flex-col sm:flex-row mt-6">
         {articles.map((article) => (
           <div class="bg-dark-blue w-full  rounded-[40px] ">
             <img class="w-full rounded-t-[40px]" src={article.heroImg} />
