@@ -5,6 +5,7 @@ import Hero from "~/components/home/Hero";
 import Portfolio from "~/components/home/Portfolio";
 import Rewards from "~/components/home/Rewards";
 import Testimonies from "~/components/home/Testimonies";
+import Video from "~/components/home/Video";
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
         <Rewards />
         <Banner />
         <Testimonies />
+        <Video />
       </main>
     </>
   );
