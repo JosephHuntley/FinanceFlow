@@ -7,6 +7,7 @@ import Rewards from "~/components/home/Rewards";
 import Testimonies from "~/components/home/Testimonies";
 import Video from "~/components/home/Video";
 import News from "~/components/home/News";
+import Download from "~/components/home/Download";
 
 export default function Home() {
   return (
@@ -27,6 +28,7 @@ export default function Home() {
         <Testimonies />
         <Video />
         <News />
+        <Download />
       </main>
     </>
   );
