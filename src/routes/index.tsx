@@ -19,7 +19,7 @@ export default function Home() {
         <Meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       {/* Adding mt-32 instead of pt-32 causes issue with fixed header */}
-      <main class="pt-32 sm:mx-40 mx-4 min-h-[100vh]">
+      <main class="pt-32 sm:mx-40 mx-4">
         <Hero />
         <Featured />
         <Portfolio />
