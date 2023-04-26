@@ -10,14 +10,14 @@ const Hero: Component<{}> = (props) => {
         suspendisse tortor aenean dis placerat. Scelerisque imperdiet vitae
         dolor non aliquam. Malesuada.
       </p>
-      <div class="mt-12">
+      <div class="mt-12 flex flex-col sm:flex-row w-full justify-between">
         <h2 class="text-3xl font-bold">What drives Finance Flow?</h2>
-        <p class="mt-4 max-w-[320px]">
+        <p class="mt-4 max-w-[320px] sm:max-w-[496px]">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat nulla
           suspendisse tortor aene.
         </p>
       </div>
-      <div class="flex flex-col gap-5 mt-4">
+      <div class="flex flex-col sm:grid sm:grid-cols-2 gap-5 mt-4">
         {bullets.map((bullet) => (
           <div class="bg-dark-blue rounded-[40px] px-8 py-14 flex flex-col sm:flex-row gap-6">
             <img class="w-[68px] h-[68px]" src={bullet.icon} />
