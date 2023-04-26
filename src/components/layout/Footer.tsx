@@ -1,16 +1,16 @@
-import { Component } from "solid-js"
-import Logo from "../global/Logo"
-import insta from "/insta.svg"
-import facebook from "/facebook.svg"
-import linkedin from "/linkedIn.svg"
-import apple from "/apple.svg"
-import playStore from "/playStore.svg"
-import { A } from "@solidjs/router"
-import Button from "../global/Button"
+import { Component } from "solid-js";
+import Logo from "../global/Logo";
+import insta from "/insta.svg";
+import facebook from "/facebook.svg";
+import linkedin from "/linkedIn.svg";
+import apple from "/apple.svg";
+import playStore from "/playStore.svg";
+import { A } from "@solidjs/router";
+import Button from "../global/Button";
 
 const Footer: Component<{}> = (props) => {
   return (
-    <footer class="bg-dark-blue pt-14 lg:px-32 sm:px-12 px-6 pb-8">
+    <footer class="bg-dark-blue pt-14 lg:px-32 sm:px-12 px-6 pb-8 mt-20 sm:mt-[120px]">
       <div class="flex sm:flex-row flex-col gap-6 sm:gap-0 justify-between mb-24">
         <Logo />
         {/* icons */}
@@ -70,7 +70,7 @@ const Footer: Component<{}> = (props) => {
       <div class="bg-white/10 w-full h-px mt-32" />
       <div class=" mt-8">All rights reserved &COPY;</div>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
