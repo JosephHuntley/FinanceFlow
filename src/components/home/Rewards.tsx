@@ -5,7 +5,7 @@ import Laptop from "/Computer.png";
 
 const Rewards: Component<{}> = (props) => {
   return (
-    <section class="grid sm:gap-y-10  my-20 grid-cols-1 sm:grid-cols-2 items-center overflow-x-hidden mr-[-10rem]">
+    <section class="grid sm:gap-y-10  my-20 grid-cols-1 sm:grid-cols-2 items-center overflow-x-hidden sm:mr-[-10rem]">
       {/* Dual Phone */}
       <img class="w-full h-[380px] sm:w-[500px] sm:h-[592px]" src={DualPhone} />
       {rewards.map((reward) => (
@@ -23,9 +23,9 @@ const Rewards: Component<{}> = (props) => {
         </div>
       ))}
       {/* Laptop */}
-      <div class="w-full sm:w-[972px] sm:h-[588px] sm:right-[200px] relative mr-[-10rem]">
+      <div class="w-full sm:w-[972px] sm:h-[588px] sm:right-[200px] relative sm:mr-[-10rem]">
         <img
-          class="sm:relative w-full sm:w-[972px] sm:h-[588px] mr-[-10rem]"
+          class="sm:relative w-full sm:w-[972px] sm:h-[588px] sm:mr-[-10rem]"
           src={Laptop}
         />
       </div>
