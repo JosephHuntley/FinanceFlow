@@ -7,6 +7,10 @@ import MessageIcon from "/Message.png";
 import User from "/User.png";
 import AuthorImage from "/AuthorImage.png";
 import Hero from "/BlogHero.png";
+import OpenIcon from "/OpenSource.png";
+import WorldWideIcon from "/WorldWide.png";
+import TransparentIcon from "/Transparent.png";
+import CommunityIcon from "/Community.png";
 
 export const rewards = [
   {
@@ -110,5 +114,28 @@ export const articles = [
     date: "August 2, 2021",
     authorImg: AuthorImage,
     heroImg: Hero,
+  },
+];
+
+export const bullets = [
+  {
+    icon: OpenIcon,
+    title: "Open Source",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et nibh urna in proin dui purus bibendum cras. Morbi cursus nunc.",
+  },
+  {
+    icon: WorldWideIcon,
+    title: "World Wide",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et nibh urna in proin dui purus bibendum cras. Morbi cursus nunc.",
+  },
+  {
+    icon: TransparentIcon,
+    title: "Transparent",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et nibh urna in proin dui purus bibendum cras. Morbi cursus nunc.",
+  },
+  {
+    icon: CommunityIcon,
+    title: "Community Driven",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et nibh urna in proin dui purus bibendum cras. Morbi cursus nunc.",
   },
 ];
