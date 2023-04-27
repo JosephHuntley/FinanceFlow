@@ -10,7 +10,7 @@ import Button from "../global/Button";
 
 const Footer: Component<{}> = (props) => {
   return (
-    <footer class="bg-dark-blue pt-14 lg:px-32 sm:px-12 px-6 pb-8 mt-20 sm:mt-[120px]">
+    <footer class="bg-dark-blue pt-14 lg:px-32 sm:px-12 px-6 pb-8 mt-10 sm:mt-44">
       <div class="flex sm:flex-row flex-col gap-6 sm:gap-0 justify-between mb-24">
         <Logo />
         {/* icons */}
