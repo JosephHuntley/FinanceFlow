@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <Title>FinanceFlow</Title>
+        <Title>Home Page | FinanceFlow</Title>
         <Meta charset="utf-8" />
         <Meta name="description" content="Home page of Finance Flow" />
         <Meta name="viewport" content="width=device-width, initial-scale=1" />
