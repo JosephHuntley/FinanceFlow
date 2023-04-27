@@ -3,7 +3,7 @@ import Planet from "/Planet.svg";
 
 const Mission: Component<{}> = (props) => {
   return (
-    <section class="flex flex-col sm:flex-row mt-10 sm:gap-20 gap-16 justify-between overflow-x-hidden mr-[-1rem] sm:mr-[-10rem]">
+    <section class="flex flex-col sm:flex-row mt-10 sm:mt-44 sm:gap-20 gap-16 justify-between overflow-x-hidden mr-[-1rem] sm:mr-[-10rem]">
       <div class="">
         <div>
           <h2 class="text-2xl sm:text-4xl font-bold sm:mt-16">Our Mission</h2>
