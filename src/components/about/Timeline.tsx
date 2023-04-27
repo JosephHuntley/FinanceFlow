@@ -3,7 +3,7 @@ import { timeline } from "~/data/Constants";
 
 const Timeline: Component<{}> = (props) => {
   return (
-    <section class="mt-10 sm:mt-44 flex flex-col sm:flex-row gap-32 justify-between">
+    <section class="mt-10 sm:mt-44 flex flex-col sm:flex-row sm:gap-32 justify-between">
       {/* Section Heading */}
       <div>
         <h2 class="text-2xl sm:text-4xl font-bold ">Timeline</h2>
