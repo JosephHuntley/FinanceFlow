@@ -4,12 +4,14 @@ import { bullets } from "~/data/Constants";
 const Hero: Component<{}> = (props) => {
   return (
     <section>
-      <h1 class="font-bold text-4xl sm:text-6xl">About Finance Flow</h1>
-      <p class="mt-4 max-w-[320px]">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat nulla
-        suspendisse tortor aenean dis placerat. Scelerisque imperdiet vitae
-        dolor non aliquam. Malesuada.
-      </p>
+      <div class="text-center flex flex-col items-center">
+        <h1 class="font-bold text-4xl sm:text-6xl">About Finance Flow</h1>
+        <p class="mt-4 max-w-[320px] sm:max-w-[600px]">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat nulla
+          suspendisse tortor aenean dis placerat. Scelerisque imperdiet vitae
+          dolor non aliquam. Malesuada.
+        </p>
+      </div>
       <div class="mt-12 flex flex-col sm:flex-row w-full justify-between">
         <h2 class="text-3xl font-bold">What drives Finance Flow?</h2>
         <p class="mt-4 max-w-[320px] sm:max-w-[496px]">
