@@ -139,3 +139,31 @@ export const bullets = [
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et nibh urna in proin dui purus bibendum cras. Morbi cursus nunc.",
   },
 ];
+
+export const timeline = [
+  {
+    year: "2014",
+    title: "Announcement",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis vivamus at mattis bibendum congue cras id interdum. Risus leo et.",
+  },
+  {
+    year: "2016",
+    title: "Announcement",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis vivamus at mattis bibendum congue cras id interdum. Risus leo et.",
+  },
+  {
+    year: "2018",
+    title: "Announcement",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis vivamus at mattis bibendum congue cras id interdum. Risus leo et.",
+  },
+  {
+    year: "2020",
+    title: "Announcement",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis vivamus at mattis bibendum congue cras id interdum. Risus leo et.",
+  },
+  {
+    year: "2022",
+    title: "Announcement",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis vivamus at mattis bibendum congue cras id interdum. Risus leo et.",
+  },
+];
