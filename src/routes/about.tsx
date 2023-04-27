@@ -1,5 +1,6 @@
 import Hero from "~/components/about/Hero";
 import Mission from "~/components/about/Mission";
+import Team from "~/components/about/Team";
 import Timeline from "~/components/about/Timeline";
 
 export default function About() {
@@ -8,6 +9,7 @@ export default function About() {
       <Hero />
       <Mission />
       <Timeline />
+      <Team />
     </main>
   );
 }

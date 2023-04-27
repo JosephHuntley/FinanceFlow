@@ -11,6 +11,9 @@ import OpenIcon from "/OpenSource.png";
 import WorldWideIcon from "/WorldWide.png";
 import TransparentIcon from "/Transparent.png";
 import CommunityIcon from "/Community.png";
+import T1 from "/Team 1.png";
+import T2 from "/Team 2.png";
+import T3 from "/Team 3.png";
 
 export const rewards = [
   {
@@ -166,4 +169,10 @@ export const timeline = [
     title: "Announcement",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis vivamus at mattis bibendum congue cras id interdum. Risus leo et.",
   },
+];
+
+export const team = [
+  { name: "John Carter", role: "CEO & Co-Founder", pic: T1 },
+  { name: "Sophie Moore", role: "Community Lead", pic: T2 },
+  { name: "Alex Turner", role: "Operations", pic: T3 },
 ];
