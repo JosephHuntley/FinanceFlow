@@ -4,7 +4,7 @@ import { bullets } from "~/data/Constants";
 const Hero: Component<{}> = (props) => {
   return (
     <section>
-      <div class="text-center flex flex-col items-center">
+      <div class="sm:text-center flex flex-col sm:items-center">
         <h1 class="font-bold text-4xl sm:text-6xl">About Finance Flow</h1>
         <p class="mt-4 max-w-[320px] sm:max-w-[600px]">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat nulla
