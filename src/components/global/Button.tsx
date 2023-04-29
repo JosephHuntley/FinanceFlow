@@ -4,9 +4,11 @@ const Button: Component<{
   children: JSX.Element;
   variant?: "primary" | "alt" | "white";
   className?: string;
-}> = ({ children, variant, className = "" }) => {
+  onClick?: any;
+}> = ({ onClick, children, variant, className = "" }) => {
   return (
     <button
+      onClick={onClick}
       class={`${
         variant === "alt"
           ? "bg-white/10"
