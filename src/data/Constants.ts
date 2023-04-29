@@ -14,6 +14,10 @@ import CommunityIcon from "/Community.png";
 import T1 from "/Team 1.png";
 import T2 from "/Team 2.png";
 import T3 from "/Team 3.png";
+import Bitcoin from "/Bitcoin.png";
+import Litecoin from "/Litecoin.png";
+import Ethereum from "/Ethereum.png";
+import Tron from "/TRON.png";
 
 export const rewards = [
   {
@@ -210,5 +214,40 @@ export const PricingCards = [
       "Windows & macOS App",
       "Premium Support",
     ],
+  },
+];
+
+export const tokensData = [
+  {
+    img: Bitcoin,
+    name: "Bitcoin",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+    marketCap: "$252,844,036,453 USD",
+    volume: "$30,504,879,301 USD",
+    link: "",
+  },
+  {
+    img: Ethereum,
+    name: "Ethereum",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+    marketCap: "$252,844,036,453 USD",
+    volume: "$30,504,879,301 USD",
+    link: "",
+  },
+  {
+    img: Litecoin,
+    name: "Litecoin",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+    marketCap: "$252,844,036,453 USD",
+    volume: "$30,504,879,301 USD",
+    link: "",
+  },
+  {
+    img: Tron,
+    name: "TRON",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+    marketCap: "$252,844,036,453 USD",
+    volume: "$30,504,879,301 USD",
+    link: "",
   },
 ];
