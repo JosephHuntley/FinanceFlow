@@ -176,3 +176,39 @@ export const team = [
   { name: "Sophie Moore", role: "Community Lead", pic: T2 },
   { name: "Alex Turner", role: "Operations", pic: T3 },
 ];
+
+export const PricingCards = [
+  {
+    subscription: "Basic",
+    price: "$100 USD",
+    text: "Lorem ipsum dolor sit amet, ametor consectetur adipiscing elit. Et nibh.",
+    bullets: [
+      "Everything included in Basic",
+      "Trading up to $1MM per month",
+      "Windows & macOS App",
+      "Premium Support",
+    ],
+  },
+  {
+    subscription: "Pro",
+    price: "$100 USD",
+    text: "Lorem ipsum dolor sit amet, ametor consectetur adipiscing elit. Et nibh.",
+    bullets: [
+      "Everything included in Basic",
+      "Trading up to $1MM per month",
+      "Windows & macOS App",
+      "Premium Support",
+    ],
+  },
+  {
+    subscription: "Expert",
+    price: "$100 USD",
+    text: "Lorem ipsum dolor sit amet, ametor consectetur adipiscing elit. Et nibh.",
+    bullets: [
+      "Everything included in Basic",
+      "Trading up to $1MM per month",
+      "Windows & macOS App",
+      "Premium Support",
+    ],
+  },
+];
