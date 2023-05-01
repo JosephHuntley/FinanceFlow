@@ -10,7 +10,7 @@ const contact = () => {
         <Meta name="description" content="Contact page of Finance Flow" />
         <Meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
-      <main class="pt-32 sm:mx-40 mx-4">
+      <main class="pt-32 sm:mx-40 mx-4 overflow-x-hidd">
         <Form />
       </main>
     </>
