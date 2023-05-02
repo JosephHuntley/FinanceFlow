@@ -251,3 +251,26 @@ export const tokensData = [
     link: "",
   },
 ];
+
+export const accordion = [
+  {
+    title: "Question 1",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id dui pharetra elementum sit id sagittis non donec egestas.",
+  },
+  {
+    title: "Question 2",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id dui pharetra elementum sit id sagittis non donec egestas.",
+  },
+  {
+    title: "Question 3",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id dui pharetra elementum sit id sagittis non donec egestas.",
+  },
+  {
+    title: "Question 4",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id dui pharetra elementum sit id sagittis non donec egestas.",
+  },
+  {
+    title: "Question 5",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id dui pharetra elementum sit id sagittis non donec egestas.",
+  },
+];

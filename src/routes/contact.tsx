@@ -1,4 +1,5 @@
 import { Head, Title, Meta } from "solid-start";
+import Faq from "~/components/contact/Faq";
 import Form from "~/components/contact/Form";
 
 const contact = () => {
@@ -12,6 +13,7 @@ const contact = () => {
       </Head>
       <main class="pt-32 sm:mx-40 mx-4 overflow-x-hidd">
         <Form />
+        <Faq />
       </main>
     </>
   );
