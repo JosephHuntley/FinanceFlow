@@ -1,8 +1,8 @@
-import { Component, Show, createSignal } from "solid-js"
-import { AiOutlineClose } from "solid-icons/ai"
+import { Component, Show, createSignal } from "solid-js";
+import { AiOutlineClose } from "solid-icons/ai";
 
 const Alert: Component<{}> = (props) => {
-  const [isOpen, setIsOpen] = createSignal(true)
+  const [isOpen, setIsOpen] = createSignal(true);
   return (
     <Show when={isOpen()}>
       <div
@@ -10,8 +10,8 @@ const Alert: Component<{}> = (props) => {
         style={{ "z-index": "99999" }}
       >
         <p>
-          This project is still under development and is updated daily. Feel
-          free to check out the{" "}
+          This project is a fictitious online banking company. Feel free to
+          check out the{" "}
           <a
             class="underline"
             href="https://www.figma.com/community/file/1224405977341356807"
@@ -36,7 +36,7 @@ const Alert: Component<{}> = (props) => {
         />
       </div>
     </Show>
-  )
-}
+  );
+};
 
-export default Alert
+export default Alert;
